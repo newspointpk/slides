@@ -1,0 +1,131 @@
+{
+  "wordReplacements": [
+    {
+      "find": "محرم الحرام",
+      "replace": "محرم شریف"
+    },
+    {
+      "find": "عالمی مدنی مرکز فیضان مدینہ کراچی",
+      "replace": "فیضان مدینہ کراچی"
+    },
+    {
+      "find": "علاقہ مکین",
+      "replace": "مقامی اسلامی بھائی اور مقامی عاشقان رسول"
+    },
+    {
+      "find": "اوور سیز",
+      "replace": "انٹر نیشنل افئیرز"
+    },
+    {
+      "find": "مجلس بیرون ملک",
+      "replace": "انٹر نیشنل افئیرز ڈیپارٹمنٹ"
+    },
+    {
+      "find": "اوورسیز میں دعوت اسلامی کے سینٹرز",
+      "replace": "مختلف ممالک میں دعوت اسلامی کے سینٹرز"
+    },
+    {
+      "find": "تین روزہ اجتماع",
+      "replace": "تین دن کا سنتوں بھرا اجتماع"
+    },
+    {
+      "find": "روزہ",
+      "replace": "دن"
+    },
+    {
+      "find": "سوگوار خاندان",
+      "replace": "لواحقین"
+    },
+    {
+      "find": "مشورہ",
+      "replace": "مدنی مشورہ"
+    },
+    {
+      "find": "مشورے",
+      "replace": "مدنی مشورے"
+    },
+    {
+      "find": "بریفنگ",
+      "replace": "کاموں سے متعلق آگاہی"
+    },
+    {
+      "find": "اہم تعلیمی سیشن",
+      "replace": "ایک سیشن کا اہتما م"
+    },
+    {
+      "find": "دو روزہ سنتوں بھرےاجتماع کے سلسلےمیں",
+      "replace": "دو دن کے سنتوں بھرے اجتماع کے سلسلے"
+    },
+    {
+      "find": "مدنی خبروں کے نمائندےسےخصوصی گفتگوبھی کی",
+      "replace": "مدنی خبروں سے گفتگو"
+    }
+  ],
+  "forbiddenWords": [
+    "مدنی مرکز",
+    "میٹ اپ",
+    "تربیت",
+    "سعودی عرب",
+    "عمان",
+    "کویت",
+    "قطر",
+    "بحرین",
+    "یواے ای",
+    "اِدھر",
+    "اُدھر",
+    "نیز"
+  ],
+  "formattingRules": [
+    {
+      "entity": "رائیونڈ",
+      "append": "(مصطفی آباد)"
+    },
+    {
+      "entity": "ملتان",
+      "append": "(مدینۃالاولیاء)"
+    },
+    {
+      "rule": "Use 'تشریف آوری' only for Ulama (Scholars). For others, use 'حاضری' or 'آمد'."
+    },
+    {
+      "rule": "Never include dates in slides."
+    },
+    {
+      "rule": "Always write 'صلی اللہ علیہ و آلہ وصحبہ وسلم' with the Prophet's name."
+    },
+    {
+      "rule": "Every slide must have a subject (fail) and object (mafool)."
+    },
+    {
+      "rule": "Do not use 'Lahore:' format. Put addresses at the end in a separate line (e.g., 'لاہور پنجاب ، پاکستان')."
+    },
+    {
+      "rule": "Reporter name must be at the end in a separate line (e.g., 'رپورٹ : محمد طارق عطاری مدنی')."
+    },
+    {
+      "rule": "Address and Reporter lines are EXTRA and not counted in the 2-8 slide limit."
+    },
+    {
+      "rule": "Policy 26: No mention of places (city, province, or area) in any slide."
+    },
+    {
+      "rule": "Policy 27: Do not write PBUH (صلی اللہ علیہ و آلہ وصحبہ وسلم) with 'Ashiqan-e-Rasool' (عاشقان رسول)."
+    },
+    {
+      "rule": "Policy 28: Do not put a full stop (.) at the end of any slide."
+    },
+    {
+      "rule": "Policy 33: Do not write address/location for news outside Pakistan (e.g., Chittagong, Bangladesh)."
+    },
+    {
+      "rule": "Policy 34: Do not generate slides about who participated or who was present."
+    }
+  ],
+  "constraints": {
+    "minSlides": 2,
+    "maxSlides": 8,
+    "minWordsPerSlide": 8,
+    "maxWordsPerSlide": 18,
+    "mustBeCompleteSentence": true
+  }
+}
